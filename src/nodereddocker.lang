@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "nodereddocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[zh-cn]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED 是一款低代码编排工具：把设备、API 与在线服务用节点连起来就是一条自动化流程——轮询 Modbus 设备、调用 webhook、推送通知、把数据写进 InfluxDB 都可以拖拽完成。流程、凭据与已安装节点都保存在你自己 NAS 的应用数据目录里。"
+release_note = "1. 首个版本：基于 Docker Hub 的 Node-RED 5.0.9，以非 root 容器运行。低代码自动化编辑器，流程保存在应用数据目录，无需数据库。"
+important    = "需要 DockerEngine（缺失时应用中心会自动安装）。打开编辑器新建流程即可；所有内容（flows.json、凭据、已安装节点）都保存在 DockerAppData/nodereddocker/data。编辑器默认没有登录鉴权——请在 settings.js 里开启 adminAuth，或只在内网使用。安装节点需要访问 npm 源，所以 NAS 要能出网。界面为纯 HTTP，暴露到公网前请配置带 TLS 的反向代理。"
+
+[zh-hk]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED 是一款低程式碼編排工具：把裝置、API 與線上服務用節點連起來就是一條自動化流程——輪詢 Modbus 裝置、呼叫 webhook、推送通知、把資料寫進 InfluxDB 都可以拖曳完成。流程、憑證與已安裝節點都保存在你自己 NAS 的應用資料目錄裡。"
+release_note = "1. 首個版本：基於 Docker Hub 的 Node-RED 5.0.9，以非 root 容器運行。低程式碼自動化編輯器，流程保存在應用資料目錄，無需資料庫。"
+important    = "需要 DockerEngine（缺少時應用中心會自動安裝）。開啟編輯器新增流程即可；所有內容（flows.json、憑證、已安裝節點）都保存在 DockerAppData/nodereddocker/data。編輯器預設沒有登入鑑權——請在 settings.js 裡開啟 adminAuth，或只在內網使用。安裝節點需要存取 npm 來源，所以 NAS 要能出網。介面為純 HTTP，公開到互聯網前請配置帶 TLS 的反向代理。"
+
+[fr-fr]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[de-de]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[it-it]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[es-es]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[hu-hu]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ja-jp]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ko-kr]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[pl-pl]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ru-ru]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[tr-tr]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[pt-pt]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ar-sa]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[cs-cz]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[he-il]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[id-id]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[nb-no]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[nl-nl]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[sv-se]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[th-th]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[vi-vn]
+name         = "Node-RED"
+auth         = "node-red"
+version      = "@@VERSION@@"
+descript     = "Node-RED is a low-code programming tool for wiring together devices, APIs and online services. Drag nodes onto a canvas, connect them, and you have an automation: poll a Modbus device, call a webhook, push a notification, store data in InfluxDB. Flows, credentials and installed nodes live in the application data folder on your own NAS."
+release_note = "1. First release: Node-RED 5.0.9 from Docker Hub as a non-root container. Low-code automation editor with flow storage in the application data folder, no database required."
+important    = "Requires DockerEngine (installed automatically if missing). Open the editor and start with a flow; everything (flows.json, credentials and installed nodes) is stored in DockerAppData/nodereddocker/data. The editor has no authentication by default - enable adminAuth in settings.js or keep the app on your LAN. Installed nodes come from the npm registry, so the NAS needs outbound access. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
