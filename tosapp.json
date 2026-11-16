@@ -75,7 +75,7 @@
   "github_repo": "nodered",
   "upstream_version": "5.0.9",
   "release_tag_prefix": "v",
-  "version": "5.0.9-1",
+  "version": "5.0.9-2",
   "help": "https://github.com/Moechz/nodered/issues",
   "official": "https://github.com/node-red/node-red",
   "license": "Apache-2.0",
